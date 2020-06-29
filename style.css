@@ -1,0 +1,136 @@
+/*below is class for nav bar section*/
+.menu{
+	background-color: #F0A100;
+	display: grid;
+	
+	
+
+}
+.menu:hover{
+background-color: #f04800;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  -webkit-box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 5px;
+    -moz-box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 5px;
+    -o-box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 5px;
+    box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 50px;
+}
+nav {
+  position: fixed ;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+
+/*below is class for navigation bar list*/
+.zone{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 6fr;
+	margin: auto 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3rem;
+	
+	 
+}
+
+
+/*below is class for elements in nav bar*/
+.orange{
+	padding: 15px 20px 15px 0px;
+	list-style: none;
+
+
+}
+/*below is class for right menu element*/
+.push{
+	margin-left: auto;
+}
+/*below is class for hyperlink texts in nav bar*/
+.mn{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.mn:hover{
+	color: #B1B1B1;
+	transition: color 0.5s ease-out;
+}
+/*sticky style for nav bar*/
+
+
+.cover{
+	show height: auto;
+    height: 35rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cov{
+	width: 30rem;
+
+}
+.grid{
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-gap: 0.8rem;
+    background-color:#ffbe78;
+    
+}
+.box{
+    padding: 10px 0px 0px 0px;
+    transition: transform 0.5s;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    
+
+}
+.box>img{
+	width: 100%;
+}
+.box:hover {
+	cursor: pointer;
+     transform: scale(1.08)
+
+}
+
+
+
+li{
+	list-style: none;
+}
+.heading{ 
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+	color: #f04800;
+}
+footer{
+	display: flex;
+	justify-content:flex-end;
+	align-items: flex-end;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.7rem;
+	color: #868686;
+	letter-spacing: 0.3rem;
+	word-spacing: 0.5rem;
+	padding: 10px 0px 0px 0px;
+	
+
+	}
+span{
+	font-size: 0.8rem;
+	color: #727169;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.1rem;
+}
+
+	
+
